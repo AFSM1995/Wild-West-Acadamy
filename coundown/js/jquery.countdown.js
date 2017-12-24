@@ -7,6 +7,7 @@ var defaultOptions = {
     return;
   },
   render: function (date) {
+    /* !!!!! REMOVED YEAR !!!!! */
     this.el.innerHTML = /* date.years + " years, " + */
                         date.days  + " days, " +
                         this.leadingZeros(date.hours) + " hours, " +

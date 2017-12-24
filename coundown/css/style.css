@@ -4,8 +4,12 @@ html, body {
     background-size: cover;
 }
 
+/*=================================================
+@media so that is rendered well on small screens 
+=================================================*/
+
 @media(max-width:760px) {
-    
+
     #logo img {
         width: 50%;
     }
@@ -27,16 +31,29 @@ html, body {
     }
 }
 
+/*=================================================
+                    logo
+=================================================*/
+
 #logo img {
     padding-top: 20px;
 }
 
+/*=================================================
+                    intro
+=================================================*/
+
 #intro p {
+    /* <p>we`re working hard, we`ll be ready to launch in...</p> */
     color: white;
     text-align: center;
     font-family: 'Just Another Hand';
     font-size: 1.8em;
 }
+
+/*=================================================
+                    counter
+=================================================*/
 
 #counter .countdown {
     color: white;
@@ -46,8 +63,12 @@ html, body {
     margin: -15px 0 0;
 }
 
+/*=================================================
+                    icons
+=================================================*/
+
 #icons {
-    text-align: center;    
+    text-align: center;
 }
 
 #icons .fa {
@@ -78,6 +99,10 @@ html, body {
     bottom: 5px;
 }
 
+/*=================================================
+                    signup
+=================================================*/
+
 #signup {
     text-align: center;
 }
@@ -87,29 +112,10 @@ html, body {
 }
 
 #signup .btn {
-    background-color: rgba(161,186,226,0.5);
+    background-color: rgba(161, 186, 226, 0.5);
     color: white
 }
 
 #signup .btn:hover {
-    background-color: rgba(37,165,82,1)
+    background-color: rgba(37, 165, 82, 1)
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
