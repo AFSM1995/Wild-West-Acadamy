@@ -113,9 +113,9 @@ html, body {
 
 #signup .btn {
     background-color: rgba(161, 186, 226, 0.5);
-    color: white
+    color: white;
 }
 
 #signup .btn:hover {
-    background-color: rgba(37, 165, 82, 1)
+    background-color: rgba(37, 165, 82, 1);
 }
