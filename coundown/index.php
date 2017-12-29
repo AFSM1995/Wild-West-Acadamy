@@ -1,20 +1,17 @@
 <!-- PHP only executed on the server`s side -->
 <?php
-
     if (isset($_POST['submit'])) {
         /* if submit button is pressed send me an email */
         $from = $_Post['email'];
         $to = 'afsm1995@live.com';
         $subject = 'Email signup';
         $body = "Please sign me up to the mailing list";
-        
         /* if for invalid email */
         /* red color with "text-danger", then fontawsome icon, then spacing with &nbsp, then message */
         /* "&nbsp;" allows you to create multiple spaces that are visible on a web page and not only in the source code. */
         if (!$_POST['email']) {
             $emailError = '<div class="text-danger"><i class="fa fa-exclamation-triangle" aria-hidden="true"></i> &nbsp;Please enter a valid address</div';
         }
-        
         /* if for valid email */
         /* green color with "text-success", then fontawsome icon, then spacing with &nbsp, then message */
         /* "&nbsp;" allows you to create multiple spaces that are visible on a web page and not only in the source code. */
@@ -31,14 +28,11 @@
 
 <!doctype html>
 <html lang="en">
-
 <head>
-
     <title>Wild West Academy</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
     <!-- bootstrap.css -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
     <!-- style.css -->
@@ -48,11 +42,9 @@
     <!-- google_fonts.css -->
     <link href="https://fonts.googleapis.com/css?family=Just+Another+Hand" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Amatic+SC:400,700" rel="stylesheet">
-
 </head>
 
 <body>
-
     <!-- website logo -->
     <!-- in its own section so we can style it -->
     <section id="logo">
@@ -65,7 +57,6 @@
             </div>
         </div>
     </section>
-
     <!-- introduction text -->
     <!-- in its own section so we can style it -->
     <section id="intro">
@@ -77,7 +68,6 @@
             </div>
         </div>
     </section>
-
     <!-- external countdown -->
     <!-- in its own section so we can style it -->
     <section id="counter">
@@ -89,7 +79,6 @@
             </div>
         </div>
     </section>
-
     <!-- social media icons -->
     <!-- in its own section so we can style it -->
     <section id="icons">
@@ -144,21 +133,19 @@
             </div>
         </div>
     </section>
-
+    
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <!-- Popper.js is part of bootstrap -->
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
-    
     <!-- jquery.countdown.js -->
     <!-- counter integration -->
     <!-- text copied from documintation -->
     <!-- https://github.com/rendro/countdown -->
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
     <script type="text/javascript" src="js/jquery.countdown.js"></script>
-
     <script>
         $(function() {
             $('.countdown').countdown({
@@ -166,7 +153,5 @@
             });
         });
     </script>
-    
 </body>
-
 </html>
