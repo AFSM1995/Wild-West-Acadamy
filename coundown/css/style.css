@@ -8,13 +8,13 @@ html, body {
 @media so that is rendered well on small screens 
 =================================================*/
 @media(max-width:760px) {
-    #logo img {
+    #company-logo img {
         width: 50%;
     }
-    #counter .countdown {
+    #countdown-timer .countdown {
         font-size: 1.4em !important;
     }
-    #icons .fa {
+    #social-icons .fa {
         margin: 10px 3px 0 !important;
         font-size: 2em;
     }
@@ -23,7 +23,7 @@ html, body {
     }*/
 }
 @media(min-width:321px) and (max-width: 568px) {
-    #logo img {
+    #company-logo img {
         width: 20%;
     }
 }
@@ -31,14 +31,14 @@ html, body {
 /*=================================================
                     logo
 =================================================*/
-#logo img {
+#company-logo img {
     padding-top: 20px;
 }
 
 /*=================================================
                     intro
 =================================================*/
-#intro p {
+#intro-text p {
     /* <p>we`re working hard, we`ll be ready to launch in...</p> */
     color: white;
     text-align: center;
@@ -49,7 +49,7 @@ html, body {
 /*=================================================
                     counter
 =================================================*/
-#counter .countdown {
+#countdown-timer .countdown {
     color: white;
     text-align: center;
     font-size: 3em;
@@ -60,29 +60,29 @@ html, body {
 /*=================================================
                     icons
 =================================================*/
-#icons {
+#social-icons {
     text-align: center;
 }
-#icons .fa {
+#social-icons .fa {
     color: white;
     margin: 5px 15px;
     position: relative;
     bottom: 0;
     transition: all 0.2s ease-in-out;
 }
-#icons .twitter:hover {
+#social-icons .twitter:hover {
     color: #6cadde;
     bottom: 5px;
 }
-#icons .facebook:hover {
+#social-icons .facebook:hover {
     color: #3b5998;
     bottom: 5px;
 }
-#icons .google-plus:hover {
+#social-icons .google-plus:hover {
     color: #ea4335;
     bottom: 5px;
 }
-#icons .instagram:hover {
+#social-icons .instagram:hover {
     color: #517fa6;
     bottom: 5px;
 }
