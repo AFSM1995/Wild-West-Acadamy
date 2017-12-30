@@ -1,0 +1,74 @@
+/*=================================================
+                BOOTSTRAP MEDIA QUERIES
+=================================================*/
+
+/*=================================================
+                LARGE MEDIA QUERIES
+=================================================*/
+/* large devices (desktops & laptops) */
+@media (min-width: 1200px) {  
+        
+}
+
+/*=================================================
+                MEDIUM MEDIA QUERIES
+=================================================*/
+/* medium devices (landscape tablets & medium desktops) */
+@media (min-width: 992px) and (max-width: 1199px) {
+    
+}
+
+/*=================================================
+                SMALL MEDIA QUERIES
+=================================================*/
+/* small devices (portrait tablets & small desktops) */
+@media (min-width: 768px) and (max-width: 991px) {
+
+}
+
+/*=================================================
+                EXTRA SMALL MEDIA QUERIES
+=================================================*/
+/* extra small devices (landscape phones & portrait tablets) */
+@media (max-width: 767px) { 
+    
+}
+@media (max-width: 480px) {
+    /* good to go */
+}
+@media (max-width: 320px) {   
+    
+}
+
+
+
+
+
+/*
+@media(max-width:760px) {
+    #company-logo img {
+        width: 50%;
+    }
+    #countdown-timer .countdown {
+        font-size: 1.4em !important;
+    }
+    #social-icons .fa {
+        margin: 10px 3px 0 !important;
+        font-size: 2em;
+    }
+    /*#signup .btn {
+        margin-top: 15px;
+    }
+}
+@media(min-width:321px) and (max-width: 568px) {
+    #company-logo img {
+        width: 20%;
+    }
+}
+*/
+
+
+
+
+
+

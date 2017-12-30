@@ -1,58 +1,26 @@
 html, body {
     background: url('../img/bg.jpg') center center no-repeat;
-    height: 100%;
     background-size: cover;
+    height: 100%;
 }
 
 /*=================================================
-@media so that is rendered well on small screens 
-=================================================*/
-@media(max-width:760px) {
-    #company-logo img {
-        width: 50%;
-    }
-    #countdown-timer .countdown {
-        font-size: 1.4em !important;
-    }
-    #social-icons .fa {
-        margin: 10px 3px 0 !important;
-        font-size: 2em;
-    }
-    /*#signup .btn {
-        margin-top: 15px;
-    }*/
-}
-@media(min-width:321px) and (max-width: 568px) {
-    #company-logo img {
-        width: 20%;
-    }
-}
-
-/*=================================================
-                    company-logo
+    company-logo / intro-text / countdown-timer
 =================================================*/
 #company-logo img {
     padding-top: 20px;
 }
-
-/*=================================================
-                    intro-text
-=================================================*/
 #intro-text p {
-    color: white;
-    text-align: center;
     font-family: 'Just Another Hand';
     font-size: 1.8em;
-}
-
-/*=================================================
-                    countdown-timer
-=================================================*/
-#countdown-timer .countdown {
-    color: white;
     text-align: center;
-    font-size: 3em;
+    color: white;
+}
+#countdown-timer .countdown {
     font-family: 'Amatic SC', cursive;
+    font-size: 3em;
+    text-align: center;
+    color: white;
     margin: -15px 0 0;
 }
 
@@ -63,10 +31,10 @@ html, body {
     text-align: center;
 }
 #social-icons .fa {
-    color: white;
     margin: 5px 15px;
-    position: relative;
     bottom: 0;
+    color: white;
+    position: relative;
     transition: all 0.2s ease-in-out;
 }
 #social-icons .twitter:hover {
