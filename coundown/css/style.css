@@ -29,17 +29,16 @@ html, body {
 }
 
 /*=================================================
-                    logo
+                    company-logo
 =================================================*/
 #company-logo img {
     padding-top: 20px;
 }
 
 /*=================================================
-                    intro
+                    intro-text
 =================================================*/
 #intro-text p {
-    /* <p>we`re working hard, we`ll be ready to launch in...</p> */
     color: white;
     text-align: center;
     font-family: 'Just Another Hand';
@@ -47,7 +46,7 @@ html, body {
 }
 
 /*=================================================
-                    counter
+                    countdown-timer
 =================================================*/
 #countdown-timer .countdown {
     color: white;
@@ -58,7 +57,7 @@ html, body {
 }
 
 /*=================================================
-                    icons
+                    social icons
 =================================================*/
 #social-icons {
     text-align: center;
@@ -97,9 +96,9 @@ html, body {
     display: block;
 }
 #signup .btn {
-    background-color: rgba(161, 186, 226, 0.5);
+    background-color: rgba(161, 186, 226, 0.4);
     color: white;
 }
 #signup .btn:hover {
-    background-color: rgba(37, 165, 82, 1);
+    background-color: rgba(37, 165, 82, 0.8);
 }
