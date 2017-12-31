@@ -7,7 +7,7 @@
 =================================================*/
 /* large devices (desktops & laptops) */
 @media (min-width: 1200px) {  
-        
+    /* good to go */    
 }
 
 /*=================================================
@@ -40,12 +40,7 @@
     
 }
 
-
-
-
-
-/*
-@media(max-width:760px) {
+/* @media(max-width:760px) {
     #company-logo img {
         width: 50%;
     }
@@ -64,11 +59,4 @@
     #company-logo img {
         width: 20%;
     }
-}
-*/
-
-
-
-
-
-
+} */
