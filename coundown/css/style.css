@@ -7,6 +7,7 @@ html, body {
 /*=================================================
     company-logo / intro-text / countdown-timer
 =================================================*/
+
 #company-logo img {
     padding-top: 20px;
 }
@@ -27,6 +28,7 @@ html, body {
 /*=================================================
                     social icons
 =================================================*/
+
 #social-icons {
     text-align: center;
 }
@@ -57,8 +59,10 @@ html, body {
 /*=================================================
                     signup
 =================================================*/
+
 #signup {
     text-align: center;
+    padding-bottom: 25px;
 }
 #signup .form-inline {
     display: block;

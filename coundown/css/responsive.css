@@ -1,62 +1,67 @@
 /*=================================================
-                BOOTSTRAP MEDIA QUERIES
+    LARGE / MEDIUM / SMALL MEDIA QUERIES
 =================================================*/
 
-/*=================================================
-                LARGE MEDIA QUERIES
-=================================================*/
 /* large devices (desktops & laptops) */
 @media (min-width: 1200px) {  
-    /* good to go */    
+    /* good to go */
 }
-
-/*=================================================
-                MEDIUM MEDIA QUERIES
-=================================================*/
 /* medium devices (landscape tablets & medium desktops) */
 @media (min-width: 992px) and (max-width: 1199px) {
-    
+    /* good to go */
 }
-
-/*=================================================
-                SMALL MEDIA QUERIES
-=================================================*/
 /* small devices (portrait tablets & small desktops) */
 @media (min-width: 768px) and (max-width: 991px) {
-
+    /* good to go */
 }
 
 /*=================================================
                 EXTRA SMALL MEDIA QUERIES
 =================================================*/
+
 /* extra small devices (landscape phones & portrait tablets) */
 @media (max-width: 767px) { 
-    
+    #company-logo img {
+        width: 60%;
+    }
+    #countdown-timer .countdown {
+        font-size: 2.0em !important;
+    }
+    #social-icons .fa {
+        margin: 10px 7px 0 !important;
+        font-size: 2.5em;
+    }
+}
+@media (max-width: 575px) {
+    #company-logo img {
+        width: 50%;
+    }
+    #social-icons .fa {
+        margin: 10px 5px 0 !important;
+        font-size: 2.4em;
+    }
+    #signup .btn {
+        margin-top: 15px;
+    }
+    #signup .form-control {
+        width: 175px;
+        margin: 0 auto;
+    }
 }
 @media (max-width: 480px) {
-    /* good to go */
-}
+    #countdown-timer .countdown {
+        font-size: 1.8em !important;
+    }
+}   
 @media (max-width: 320px) {   
-    
-}
-
-/* @media(max-width:760px) {
     #company-logo img {
         width: 50%;
     }
     #countdown-timer .countdown {
-        font-size: 1.4em !important;
+        font-size: 1.3em !important;
     }
     #social-icons .fa {
         margin: 10px 3px 0 !important;
-        font-size: 2em;
-    }
-    /*#signup .btn {
-        margin-top: 15px;
+        font-size: 2.0em;
     }
 }
-@media(min-width:321px) and (max-width: 568px) {
-    #company-logo img {
-        width: 20%;
-    }
-} */
